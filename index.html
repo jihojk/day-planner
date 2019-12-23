@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Stylesheets and Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/191a80e67d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Work Day Planner</title>
+
+</head>
+
+<body>
+    <!-- Jumbotron Header -->
+    <header class="jumbotron">
+        <h1 class="display-4"> Work Day Planner </h1>
+        <p class="lead"> A simple calendar app for scheduling your work day </p>
+        <p id="currentDayTime" class="lead"></p>
+    </header>
+
+    <div class="container">
+<!-- Each Hour as a Row -->
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="9:00AM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="10:00AM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="11:00AM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="12:00PM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="1:00PM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="2:00PM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="3:00PM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="4:00APM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+        <div class="row hourBlock">
+            <input class="hour col-md-1 col-2" value="5:00PM" readonly>
+            <textarea class="when col-md-10 col-8"></textarea>
+            <button class="saveButton"> <i class="far fa-save"></i></button>
+        </div>
+
+
+    </div>
+
+<!-- Jquery, Ajax, JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+</body>
+
+</html>

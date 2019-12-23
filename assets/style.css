@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;   
+}
+
+.jumbotron {
+text-align: center;
+background-color: transparent;
+border-radius: 0;
+border-bottom: 2px solid black;
+}
+
+
+textarea{
+    resize: none;
+    background-color: transparent;
+    border: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+.row {
+    white-space: pre-wrap;
+    height: 100px;
+    border-top: 1px dotted white;
+}
+.when {
+    white-space: pre-wrap;
+}
+.hourBlock{
+    text-align: center;
+    border-radius: 15px;
+}
+input :focus{
+    outline:0;
+}
+
+.hour{
+background-color: white;
+border: none;
+border-top: 1px dashed black;
+}
+
+/* button */
+.saveButton{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(14, 190, 230);
+    color: white;
+}
+button :focus{
+    outline:0;
+}
+button:active{
+    border-style:outset;
+    border-right: 2px;
+}
+.saveButton i:hover{
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+/* for Past, Present, and Future Colors */
+
+.past {
+    background-color: #dcd8d8;
+   
+}
+
+.present{
+    background-color: rgb(255, 0, 132);
+}
+
+.future{
+background-color: #7fd77a;
+}
+
+.container{
+    margin-top: 100px;
+    margin-bottom: 10%;
+}
