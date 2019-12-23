@@ -13,4 +13,4 @@ Homework - 5 Work Day Planner
 * Tracks the current day and time on the header. 
 
 ## Screenshot
-
+![Day Planner](/assets/dayplanner.png)
